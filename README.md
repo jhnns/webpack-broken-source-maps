@@ -24,7 +24,7 @@ Scroll down until you see `console.log("Hello world");` and hover over it. You'l
 Use the [`source-map`](https://github.com/mozilla/source-map) module if you need to pre- or append strings.
 Unfortunately, the API is not straight-forward to use. This is the boilerplate code to fix the problem from above:
 
-```
+```js
 const prefix = "// this is some content which will offset the source map by one line\n";
 
 // Either create a SourceNode instance from scratch or based on an input sourceMap
