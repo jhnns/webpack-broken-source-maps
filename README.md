@@ -76,4 +76,4 @@ async function fixedLoader(content, sourceMap) {
 
 ## Testing source maps
 
-[source-map-visualization](http://sokra.github.io/source-map-visualization/) is an excelent tool to debug and validate the generated source maps. The [`source-map`](https://github.com/mozilla/source-map) module also provides a way to query row and column mappings which you should do in your loader test suite to verify that the source maps are correct.
+[source-map-visualization](http://sokra.github.io/source-map-visualization/) is an excellent tool to debug and validate the generated source maps. The [`source-map`](https://github.com/mozilla/source-map) module also provides a way to query row and column mappings which you should do in your loader test suite to verify that the source maps are correct.
